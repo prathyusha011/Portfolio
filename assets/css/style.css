@@ -560,31 +560,7 @@ section {
 }
 
 /* Profile image container with gradient border */
-.about-img-col {
-  position: relative;
-  width: 220px;
-  height: 220px;
-  margin-bottom: 30px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #0d6efd 0%, #0648b3 100%);
-  padding: 6px; /* Border effect */
-  box-shadow: 0 6px 18px rgba(13, 110, 253, 0.4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-/* Profile image */
-.profile-img {
-  width: 208px;
-  height: 208px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid white;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  background-color: #fff;
-  transition: none;
-}
 
 /* About content column */
 .about-content-col {
@@ -692,40 +668,57 @@ section {
 }
 
 /* Profile image container */
+/* Profile image container - smaller square with rounded corners */
 .about-img-col {
-  width: 260px;
-  height: 260px;
-  margin-bottom: 30px;
-  /* remove border and shadow */
-  background: none;
-  padding: 0;
+  width: 300px;
+  height: 300px;
+  border-radius: 16px;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Profile image - square, bigger, no border or shadow */
 .profile-img {
-  width: 260px;
-  height: 260px;
-  border-radius: 10px;          /* slight rounding, change if you want */
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border: none;
-  box-shadow: none;
-  background-color: transparent;
-  transition: none;
+  border-radius: 0;  /* no border-radius here */
+  transition: transform 0.3s ease;
 }
+
+
+/* Hover scale up effect (zooms in) */
+.profile-img:hover {
+  transform: scale(1.1);
+}
+
+
+@media (max-width: 991px) {
+  .about-img-col {
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+  }
+  .profile-img {
+    border-radius: 15px;
+  }
+}
+
 
 /* Responsive smaller sizes */
 @media (max-width: 991px) {
+@media (max-width: 991px) {
   .about-img-col {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
   }
   .profile-img {
-    width: 200px;
-    height: 200px;
+    border-radius: 15px;
   }
+}
+
   .key-skills-bar {
     justify-content: center;
   }
