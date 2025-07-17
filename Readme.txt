@@ -1,18 +1,13 @@
-# 💼 Prathyusha Portfolio
+💼 Prathyusha Portfolio
 
 Welcome to my personal portfolio website!  
 This website highlights my projects, skills, certifications, and contact details.
 
----
-
-## 🔗 Live Demo
+🔗 Live Demo
 
 **Live Website** – [https://prathyusha011.github.io/Portfolio/](https://prathyusha011.github.io/Portfolio/)
 
----
-
-## ✨ Features
-
+ ✨ Features
 - 👩‍💻 About Me section with personal introduction and image  
 - 🛠️ Projects showcase  
 - 📜 Certifications display (including Oracle Certification)  
@@ -20,9 +15,7 @@ This website highlights my projects, skills, certifications, and contact details
 - 📱 Responsive on all devices  
 - 🎨 Simple, clean user interface  
 
----
-
-## 🧰 Technologies Used
+🧰 Technologies Used
 
 - HTML5  
 - CSS3  
@@ -30,11 +23,8 @@ This website highlights my projects, skills, certifications, and contact details
 - Git & GitHub  
 - GitHub Pages (for deployment)  
 
----
+📁 Folder Structure
 
-## 📁 Folder Structure
-
-```bash
 Prathyusha-Portfolio/
 ├── assets/
 │   └── Oracle Certification.png
@@ -42,12 +32,9 @@ Prathyusha-Portfolio/
 ├── styles.css
 ├── script.js (if any)
 
----
+⚙️ How to Run Locally
 
-## ⚙️ How to Run Locally
-
-1. **Clone the repository**
-   ```bash
+1. Clone the repository
    git clone https://github.com/prathyusha011/Prathyusha-Portfolio.git
 2. Open the folder
    cd Prathyusha-Portfolio
